@@ -90,11 +90,11 @@ HUGGINGFACE_ACCESS_TOKEN=your-huggingface-access-token
 
 ### 4. Generate Vector Stores
 
-This chatbot uses the **[ABC College Student Handbook 2024–2025 and 2025-2026](https://handbook.college.harvard.edu)** (Located in `docs/`) as its default knowledge base, focusing specifically on question answering related to college information.
+This chatbot uses the **[Harvard College Student Handbook 2024–2025 and 2025-2026](https://handbook.college.harvard.edu)** (Located in `docs/`) as its default knowledge base, focusing specifically on question answering related to the college information.
 
 > **Note:** The vector store is **not included in the repository**. To use the chatbot, you must first generate the vector store locally.
 
-#### Using the default document
+#### Using the default documents
 
 ```bash
 python src/rag_pipeline.py
